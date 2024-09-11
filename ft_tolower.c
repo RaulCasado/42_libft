@@ -1,29 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memset.c                                        :+:      :+:    :+:   */
+/*   ft_tolower.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: racasado <racasado@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/09/11 11:03:32 by racasado          #+#    #+#             */
-/*   Updated: 2024/09/11 13:50:28 by racasado         ###   ########.fr       */
+/*   Created: 2024/09/11 13:34:21 by racasado          #+#    #+#             */
+/*   Updated: 2024/09/11 13:50:52 by racasado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
-
-void	*ft_memset(void *dest, int c, size_t count)
+int	ft_toupper(int character)
 {
-	size_t	i;
-	char	*ptr;
-
-	ptr = dest;
-	i = 0;
-	while (i < count)
+	if (character >= 'A' && character <= 'Z')
 	{
-		*ptr = c;
-		i++;
-		ptr++;
+		return (character + 32);
 	}
-	return (dest);
+	return (character);
 }
