@@ -16,7 +16,7 @@ static int	ft_isalpha(int str)
 	{
 		return (0);
 	}
-	return (1024);
+	return (1);
 }
 
 static int	ft_isdigit(int str)
@@ -25,12 +25,12 @@ static int	ft_isdigit(int str)
 	{
 		return (0);
 	}
-	return (1024);
+	return (1);
 }
 
 int	ft_isalnum(int str)
 {
 	if (ft_isdigit(str) || ft_isalpha(str))
-		return (1024);
+		return (1);
 	return (0);
 }

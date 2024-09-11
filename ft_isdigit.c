@@ -16,5 +16,5 @@ int	ft_isdigit(int str)
 	{
 		return (0);
 	}
-	return (2048);
+	return (1);
 }

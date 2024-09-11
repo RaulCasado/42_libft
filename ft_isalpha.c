@@ -15,5 +15,5 @@ int	ft_isalpha(int str)
 	{
 		return (0);
 	}
-	return (1024);
+	return (1);
 }
