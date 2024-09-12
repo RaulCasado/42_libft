@@ -6,9 +6,11 @@
 /*   By: racasado <racasado@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/12 13:12:40 by racasado          #+#    #+#             */
-/*   Updated: 2024/09/12 13:32:34 by racasado         ###   ########.fr       */
+/*   Updated: 2024/09/12 23:08:53 by racasado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 static int	is_space(const char chr)
 {

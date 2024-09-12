@@ -9,11 +9,10 @@
 /*   Updated: 2024/09/10 11:53:03 by racasado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-int	ft_isalpha(int str)
+
+#include "libft.h"
+
+int	ft_isalpha(int c)
 {
-	if (!((str >= 65 && str <= 90) || (str >= 97 && str <= 122)))
-	{
-		return (0);
-	}
-	return (1);
+	return ((c >= 65 && c <= 90) || (c >= 97 && c <= 122));
 }

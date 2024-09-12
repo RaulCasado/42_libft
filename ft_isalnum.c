@@ -10,23 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-static int	ft_isalpha(int str)
-{
-	if (!((str >= 65 && str <= 90) || (str >= 97 && str <= 122)))
-	{
-		return (0);
-	}
-	return (1);
-}
-
-static int	ft_isdigit(int str)
-{
-	if (!(str >= '0' && str <= '9'))
-	{
-		return (0);
-	}
-	return (1);
-}
+#include "libft.h"
 
 int	ft_isalnum(int str)
 {
