@@ -6,7 +6,7 @@
 /*   By: racasado <racasado@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/11 13:35:49 by racasado          #+#    #+#             */
-/*   Updated: 2024/09/12 00:18:55 by racasado         ###   ########.fr       */
+/*   Updated: 2024/09/12 17:40:20 by racasado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,11 +16,11 @@ char	*ft_strchr(const char *string, int c)
 {
 	while (*string)
 	{
-		if (*string == c)
-			return (string);
+		if (*string == (char)c)
+			return ((char *)string);
 		string++;
 	}
 	if (c == '\0')
-		return (string);
+		return ((char *)string);
 	return (NULL);
 }
