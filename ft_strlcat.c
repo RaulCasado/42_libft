@@ -6,11 +6,11 @@
 /*   By: racasado <racasado@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/11 12:50:27 by racasado          #+#    #+#             */
-/*   Updated: 2024/09/11 13:02:51 by racasado         ###   ########.fr       */
+/*   Updated: 2024/09/12 22:08:34 by racasado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
+#include "libft.h"
 
 size_t	ft_strlcat(char *dst, const char *src, size_t size)
 {

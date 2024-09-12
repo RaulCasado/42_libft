@@ -6,11 +6,11 @@
 /*   By: racasado <racasado@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/11 12:30:47 by racasado          #+#    #+#             */
-/*   Updated: 2024/09/11 12:44:33 by racasado         ###   ########.fr       */
+/*   Updated: 2024/09/12 22:08:34 by racasado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
+#include "libft.h"
 
 size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 {

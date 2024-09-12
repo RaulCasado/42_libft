@@ -6,11 +6,11 @@
 /*   By: racasado <racasado@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/12 10:05:09 by racasado          #+#    #+#             */
-/*   Updated: 2024/09/12 17:39:46 by racasado         ###   ########.fr       */
+/*   Updated: 2024/09/12 22:08:34 by racasado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
+#include "libft.h"
 
 char	*ft_strrchr(const char *string, int c)
 {

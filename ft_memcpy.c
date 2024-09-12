@@ -6,11 +6,11 @@
 /*   By: racasado <racasado@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/11 11:55:31 by racasado          #+#    #+#             */
-/*   Updated: 2024/09/11 12:29:24 by racasado         ###   ########.fr       */
+/*   Updated: 2024/09/12 22:08:34 by racasado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
+#include "libft.h"
 
 void	*ft_memcpy(void *dest, const void *src, size_t count)
 {

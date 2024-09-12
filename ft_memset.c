@@ -6,11 +6,11 @@
 /*   By: racasado <racasado@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/11 11:03:32 by racasado          #+#    #+#             */
-/*   Updated: 2024/09/11 13:50:28 by racasado         ###   ########.fr       */
+/*   Updated: 2024/09/12 22:08:34 by racasado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
+#include "libft.h"
 
 void	*ft_memset(void *dest, int c, size_t count)
 {
