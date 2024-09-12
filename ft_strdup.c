@@ -6,24 +6,11 @@
 /*   By: racasado <racasado@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/12 13:58:13 by racasado          #+#    #+#             */
-/*   Updated: 2024/09/12 22:08:34 by racasado         ###   ########.fr       */
+/*   Updated: 2024/09/12 22:12:38 by racasado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-static size_t	ft_strlen(const char *str)
-{
-	size_t	i;
-
-	i = 0;
-	while (*str)
-	{
-		i++;
-		str++;
-	}
-	return (i);
-}
 
 char	*ft_strdup(const char *string)
 {
