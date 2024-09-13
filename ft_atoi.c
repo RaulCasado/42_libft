@@ -6,7 +6,7 @@
 /*   By: racasado <racasado@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/12 13:12:40 by racasado          #+#    #+#             */
-/*   Updated: 2024/09/12 23:08:53 by racasado         ###   ########.fr       */
+/*   Updated: 2024/09/13 10:29:10 by racasado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,8 @@
 
 static int	is_space(const char chr)
 {
-	if (chr == ' ' || chr == '\n' || chr == '\t' || chr == '\v' || chr == '\r')
+	if (chr == '\f' || chr == ' ' || chr == '\n' || chr == '\t' || chr == '\v'
+		|| chr == '\r')
 	{
 		return (1);
 	}
