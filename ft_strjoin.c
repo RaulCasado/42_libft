@@ -6,7 +6,7 @@
 /*   By: racasado <racasado@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/14 13:17:36 by racasado          #+#    #+#             */
-/*   Updated: 2024/09/14 13:25:25 by racasado         ###   ########.fr       */
+/*   Updated: 2024/09/14 20:51:52 by racasado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,8 +34,8 @@ char	*ft_strjoin(char const *s1, char const *s2)
 
 	if (!s1 || !s2)
 		return (NULL);
-	s1_len = strlen(s1);
-	s2_len = strlen(s2);
+	s1_len = ft_strlen(s1);
+	s2_len = ft_strlen(s2);
 	ptr = malloc((s1_len + s2_len + 1) * sizeof(char));
 	if (!ptr)
 		return (NULL);
