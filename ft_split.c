@@ -6,7 +6,7 @@
 /*   By: racasado <racasado@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/16 10:31:12 by racasado          #+#    #+#             */
-/*   Updated: 2024/09/16 14:40:00 by racasado         ###   ########.fr       */
+/*   Updated: 2024/09/16 21:22:19 by racasado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,15 +24,21 @@ static int	ft_count_words(char const *ptr, char delimiter)
 		if (ptr[i] != delimiter)
 		{
 			total_words++;
-			while (ptr[i] != delimiter && ptr[i])
+			while (ptr[i] && ptr[i] != delimiter)
 				i++;
 		}
 		else
-		{
 			i++;
-		}
 	}
 	return (total_words);
+}
+
+static char	**ft_free_all(char **lst, int i)
+{
+	while (i > 0)
+		free(lst[--i]);
+	free(lst);
+	return (NULL);
 }
 
 char	**ft_split(char const *s, char c)
@@ -53,6 +59,8 @@ char	**ft_split(char const *s, char c)
 			while (s[word_len] && s[word_len] != c)
 				word_len++;
 			lst[i] = ft_substr(s, 0, word_len);
+			if (!lst[i])
+				return (ft_free_all(lst, i));
 			s += word_len;
 			i++;
 		}
