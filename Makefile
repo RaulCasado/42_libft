@@ -2,10 +2,9 @@
 NAME = libft.a
 CC = cc
 CFLAGS = -Wall -Wextra -Werror
-SRC = $(wildcard ft_*.c)  # Usamos el comodín para obtener todos los archivos ft_*.c
+SRC = $(wildcard ft_*.c)
 OBJ = $(SRC:.c=.o)
 
-# Reglas obligatorias
 all: $(NAME)
 
 $(NAME): $(OBJ)
