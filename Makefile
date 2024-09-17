@@ -1,11 +1,9 @@
-# Variables
 NAME = libft.a
 CC = cc
 CFLAGS = -Wall -Wextra -Werror
 SRC = $(wildcard ft_*.c)
 OBJ = $(SRC:.c=.o)
 
-# Bonus Variables
 BONUS_SRC = $(wildcard ft_bonus_*.c)
 BONUS_OBJ = $(BONUS_SRC:.c=.o)
 
