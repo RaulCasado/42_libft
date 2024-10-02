@@ -64,7 +64,7 @@ How to Compile the Library
 
 Once you've implemented all the functions, you can compile your library using the following command:
 
-    make
+    make && make bonus
 
 This will create the `libft.a` file, which is your static library containing all your implemented functions.
 
